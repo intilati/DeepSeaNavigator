@@ -1,0 +1,3 @@
+C:/Users/Dastagir/DeepSeaNavigator/build/CMakeFiles/DeepSeaNavigator.dir
+C:/Users/Dastagir/DeepSeaNavigator/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Dastagir/DeepSeaNavigator/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^C:\USERS\DASTAGIR\DEEPSEANAVIGATOR\BUILD\CMAKEFILES\ED0CC2FA0E7A5B1122BEA620B43133A6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dastagir/DeepSeaNavigator -BC:/Users/Dastagir/DeepSeaNavigator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Dastagir/DeepSeaNavigator/build/DeepSeaNavigator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
