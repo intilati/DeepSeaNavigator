@@ -9,3 +9,14 @@ add_executable(DeepSeaNavigator
     src/gridmap.cpp
 )
 
+# simple optional test target (only created if the test file exists)
+if(EXISTS "${CMAKE_SOURCE_DIR}/tests/test_gridmap.cpp")
+  enable_testing()
+  add_executable(test_gridmap
+      tests/test_gridmap.cpp
+      src/gridmap.cpp
+  )
+  add_test(NAME gridmap_test COMMAND test_gridmap)
+endif()
+
+

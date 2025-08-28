@@ -10,7 +10,7 @@ int main(int argc, char** argv) {
     return 1;
   }
   cout<<"Loaded grid: "
-           <<grid.getNX()<<"×"<<grid.getNY()<<"×"<<grid.getNZ()<<"\n";
+           <<grid.getNX()<<'x'<<grid.getNY()<<'x'<<grid.getNZ()<<"\n";
 
   // Count free vs blocked
   int freeC=0, blkC=0;
