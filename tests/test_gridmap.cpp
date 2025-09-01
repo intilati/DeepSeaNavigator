@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
   GridMap m(5,5,2);
-  // toggle occupancy pattern
+  
   for (int z=0; z<m.getNZ(); ++z)
     for (int y=0; y<m.getNY(); ++y)
       for (int x=0; x<m.getNX(); ++x)

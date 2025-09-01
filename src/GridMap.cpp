@@ -6,6 +6,11 @@
 #include <iostream>
 using namespace std;
 
+GridMap::GridMap()
+  : nx(0), ny(0), nz(0), data()
+{}
+
+
 GridMap::GridMap(int nx_, int ny_, int nz_)
   : nx(nx_), ny(ny_), nz(nz_), data(nx_ * ny_ * nz_, 1)
 {}

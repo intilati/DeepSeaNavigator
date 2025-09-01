@@ -334,6 +334,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="C:\Users\Dastagir\DeepSeaNavigator\tests\test_gridmap.cpp" />
     <ClCompile Include="C:\Users\Dastagir\DeepSeaNavigator\src\GridMap.cpp" />
+    <ClCompile Include="C:\Users\Dastagir\DeepSeaNavigator\src\AStarPlanner.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

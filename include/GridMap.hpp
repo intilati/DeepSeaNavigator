@@ -9,6 +9,7 @@ using coord = std:: array<int,3>;
 class GridMap {
     public:
         using coord = std:: array<int,3>;
+        GridMap();   
         GridMap(int nx,int ny,int nz);
         bool loadFromText(const std::string &path);
         bool saveToText(const std::string &path) const;

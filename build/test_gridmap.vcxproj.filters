@@ -7,6 +7,9 @@
     <ClCompile Include="C:\Users\Dastagir\DeepSeaNavigator\src\GridMap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Dastagir\DeepSeaNavigator\src\AStarPlanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Dastagir\DeepSeaNavigator\CMakeLists.txt" />
