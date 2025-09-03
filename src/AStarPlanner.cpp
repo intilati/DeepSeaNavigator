@@ -27,9 +27,10 @@ std::string AStarPlanner::key(const Coord &c) const {
 Coord AStarPlanner::parseKey(const std::string &k) const {
     Coord c = {-1,-1,-1};
     int x,y,z;
-    if (sscanf(k.c_str(), "%d,%d,%d", &x,&y,&z) == 3) {
-        c = {x,y,z};
-    }
+    char comma;
+    stringstream ss(k);
+    ss  >>x>>comma>>y>>comma>>z;
+    c   =  {x,y,z};
     return c;
 }
 
@@ -50,7 +51,7 @@ bool AStarPlanner::plan(const Coord &start, const Coord &goal, Path &out_path) {
     using Clock = chrono::high_resolution_clock;
     auto t0 = Clock::now();
 
-    // open set: min-heap by f. pair<f, key>
+    // open is min-heap with (f,key)
     priority_queue<pair<float,string>, vector<pair<float,string>>, greater<pair<float,string>>> open;
 
     unordered_map<string, Node> all;       // key -> Node
@@ -71,10 +72,10 @@ bool AStarPlanner::plan(const Coord &start, const Coord &goal, Path &out_path) {
         // skip stale entries
         if (closed.find(cur_key) != closed.end()) continue;
 
-        Node cur = all[cur_key]; // copy
+        Node cur = all[cur_key]; 
 
         nodes_expanded++;
-        // goal?
+
         if (cur_key == goal_key) {
             // reconstruct path
             string k = cur_key;

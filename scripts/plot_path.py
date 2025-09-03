@@ -77,8 +77,8 @@ def plot_3d(path_pts, occ_pts, out_img=None, show=True):
 
 def main():
     parser = argparse.ArgumentParser(description="Plot voxnav output ")
-    parser.add_argument("--path",    default="out_path.csv", help="waypoint CSV (x,y,z)")
-    parser.add_argument("--occ",     default="out_occupied.csv", help="occupied voxels CSV (x,y,z)")
+    parser.add_argument("--path",    default="build/out_path.csv", help="waypoint CSV (x,y,z)")
+    parser.add_argument("--occ",     default="build/out_occupied.csv", help="occupied voxels CSV (x,y,z)")
     parser.add_argument("--out-3d",  default=None, help="save 3D image to file")
 
     args = parser.parse_args()
