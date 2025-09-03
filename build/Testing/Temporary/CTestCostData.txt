@@ -1,4 +1,4 @@
-gridmap_test 3 0.30538
-EdgeCasesTest 3 0.176967
-AStarTest 3 0.0398842
+gridmap_test 4 0.0331679
+EdgeCasesTest 4 0.163897
+AStarTest 4 0.0295335
 ---
