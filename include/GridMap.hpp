@@ -30,6 +30,8 @@ class GridMap {
         int nx,ny,nz;
         std::vector<uint8_t> data;
 
-        inline int idx(int x,int y,int z) const { return x + nx * (y + ny * z); }
+        int idx(int x,int y,int z) const { return x + nx * (y + ny * z); }
 
 };
+
+

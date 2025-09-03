@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Dastagir/DeepSeaNavigator
+# Install script for directory: C:/Users/Dastagir/voxnav
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/DeepSeaNavigator")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/voxnav")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -35,7 +35,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Dastagir/DeepSeaNavigator/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/Dastagir/voxnav/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -51,6 +51,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Dastagir/DeepSeaNavigator/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/Dastagir/voxnav/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

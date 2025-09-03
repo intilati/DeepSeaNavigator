@@ -2,16 +2,22 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Dastagir\DeepSeaNavigator\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\Dastagir\voxnav\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Dastagir\DeepSeaNavigator\build\Debug\DeepSeaNavigator.exe</FullPath>
+      <FullPath>C:\Users\Dastagir\voxnav\build\tests\Debug\test_astar.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Dastagir\DeepSeaNavigator\build\Debug\test_gridmap.exe</FullPath>
+      <FullPath>C:\Users\Dastagir\voxnav\build\tests\Debug\test_edgecases.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Dastagir\DeepSeaNavigator\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\Dastagir\voxnav\build\tests\Debug\test_gridmap.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Dastagir\voxnav\build\Debug\voxnav.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Dastagir\voxnav\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

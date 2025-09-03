@@ -1,0 +1,75 @@
+Start testing: Sep 03 13:14 India Standard Time
+----------------------------------------------------------
+1/3 Testing: gridmap_test
+1/3 Test: gridmap_test
+Command: "C:/Users/Dastagir/voxnav/build/tests/Debug/test_gridmap.exe"
+Directory: C:/Users/Dastagir/voxnav/build
+"gridmap_test" start time: Sep 03 13:14 India Standard Time
+Output:
+----------------------------------------------------------
+Neighbors (6): 0
+Neighbors (26): 8
+Distance (0,0,0)-(1,1,1): 1.73205
+test_gridmap OK
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"gridmap_test" end time: Sep 03 13:14 India Standard Time
+"gridmap_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: EdgeCasesTest
+2/3 Test: EdgeCasesTest
+Command: "C:/Users/Dastagir/voxnav/build/tests/Debug/test_edgecases.exe"
+Directory: C:/Users/Dastagir/voxnav/build
+"EdgeCasesTest" start time: Sep 03 13:14 India Standard Time
+Output:
+----------------------------------------------------------
+case_start_eq_goal: PASS
+case_oob_start: PASS
+case_start_occupied: PASS
+case_no_path: PASS
+case_small_map: PASS (size=3)
+case_benchmark: PASS nodes=1988 time_ms=355.933
+ALL EDGE CASES PASSED
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"EdgeCasesTest" end time: Sep 03 13:14 India Standard Time
+"EdgeCasesTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: AStarTest
+3/3 Test: AStarTest
+Command: "C:/Users/Dastagir/voxnav/build/tests/Debug/test_astar.exe"
+Directory: C:/Users/Dastagir/voxnav/build
+"AStarTest" start time: Sep 03 13:14 India Standard Time
+Output:
+----------------------------------------------------------
+Path length (waypoints): 13
+0,0,0
+0,1,0
+0,2,0
+0,3,0
+0,4,0
+0,5,0
+1,5,0
+2,5,0
+3,5,0
+3,5,1
+4,5,1
+4,5,2
+5,5,2
+Nodes expanded: 57
+Time (ms): 1.4895
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"AStarTest" end time: Sep 03 13:14 India Standard Time
+"AStarTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 03 13:14 India Standard Time

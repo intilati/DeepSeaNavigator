@@ -1,6 +1,6 @@
-^C:\USERS\DASTAGIR\DEEPSEANAVIGATOR\CMAKELISTS.TXT
+^C:\USERS\DASTAGIR\VOXNAV\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dastagir/DeepSeaNavigator -BC:/Users/Dastagir/DeepSeaNavigator/build --check-stamp-file C:/Users/Dastagir/DeepSeaNavigator/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dastagir/voxnav -BC:/Users/Dastagir/voxnav/build --check-stamp-file C:/Users/Dastagir/voxnav/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

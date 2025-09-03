@@ -6,14 +6,20 @@
 #include <iostream>
 using namespace std;
 
-GridMap::GridMap()
-  : nx(0), ny(0), nz(0), data()
-{}
+GridMap::GridMap() {
+    nx = 0;
+    ny = 0;
+    nz = 0;
+    data.clear();
+}
 
-
-GridMap::GridMap(int nx_, int ny_, int nz_)
-  : nx(nx_), ny(ny_), nz(nz_), data(nx_ * ny_ * nz_, 1)
-{}
+// Constructor with sizes
+GridMap::GridMap(int nx_, int ny_, int nz_) {
+    nx = nx_;
+    ny = ny_;
+    nz = nz_;
+    data.assign(nx * ny * nz, 1); // initially mark all as occupied (1)
+}
 
 bool GridMap::loadFromText(const string& path) {
     ifstream in(path);
@@ -68,7 +74,7 @@ bool GridMap::setOccupied(int x, int y, int z, bool occ) {
 
 
 vector<coord> GridMap::neighbors(int x, int y, int z, bool diag) const {
-    static const int offs6[6][3] = {
+    int offs6[6][3] = {
         {1,0,0}, {-1,0,0}, {0,1,0}, {0,-1,0}, {0,0,1}, {0,0,-1}
     };
 
@@ -76,8 +82,8 @@ vector<coord> GridMap::neighbors(int x, int y, int z, bool diag) const {
     if(!diag){
         for(int i=0;i<6;i++){
             int nx=x+offs6[i][0];
-            int ny=y+offs6[i][0];
-            int nz=z+offs6[i][0];
+            int ny=y+offs6[i][1];
+            int nz=z+offs6[i][2];
             if(inBounds(nx,ny,nz) && isFree(nx,ny,nz))
                 out.push_back({nx,ny,nz});
         }
@@ -106,5 +112,8 @@ float GridMap:: distance(const coord&a, const coord &b) const{
 }
 
     
+
+
+
 
 

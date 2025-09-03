@@ -1,5 +1,7 @@
-C:/Users/Dastagir/DeepSeaNavigator/build/CMakeFiles/DeepSeaNavigator.dir
-C:/Users/Dastagir/DeepSeaNavigator/build/CMakeFiles/test_gridmap.dir
-C:/Users/Dastagir/DeepSeaNavigator/build/CMakeFiles/RUN_TESTS.dir
-C:/Users/Dastagir/DeepSeaNavigator/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Dastagir/DeepSeaNavigator/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Dastagir/voxnav/build/CMakeFiles/voxnav.dir
+C:/Users/Dastagir/voxnav/build/CMakeFiles/test_gridmap.dir
+C:/Users/Dastagir/voxnav/build/CMakeFiles/test_edgecases.dir
+C:/Users/Dastagir/voxnav/build/CMakeFiles/test_astar.dir
+C:/Users/Dastagir/voxnav/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/Dastagir/voxnav/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Dastagir/voxnav/build/CMakeFiles/ZERO_CHECK.dir

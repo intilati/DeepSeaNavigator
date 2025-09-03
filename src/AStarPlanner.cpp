@@ -54,7 +54,7 @@ bool AStarPlanner::plan(const Coord &start, const Coord &goal, Path &out_path) {
     priority_queue<pair<float,string>, vector<pair<float,string>>, greater<pair<float,string>>> open;
 
     unordered_map<string, Node> all;       // key -> Node
-    unordered_set<string> closed;          // visited keys
+    unordered_set<string> closed;         // visited keys
 
     string start_key = key(start);
     string goal_key  = key(goal);
@@ -125,3 +125,6 @@ bool AStarPlanner::plan(const Coord &start, const Coord &goal, Path &out_path) {
     last_time_ms = chrono::duration<double, milli>(t1 - t0).count();
     return false; // no path found
 }
+
+
+

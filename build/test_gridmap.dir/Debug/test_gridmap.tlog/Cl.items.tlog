@@ -1,3 +1,3 @@
-C:\Users\Dastagir\DeepSeaNavigator\tests\test_gridmap.cpp;C:\Users\Dastagir\DeepSeaNavigator\build\test_gridmap.dir\Debug\test_gridmap.obj
-C:\Users\Dastagir\DeepSeaNavigator\src\GridMap.cpp;C:\Users\Dastagir\DeepSeaNavigator\build\test_gridmap.dir\Debug\GridMap.obj
-C:\Users\Dastagir\DeepSeaNavigator\src\AStarPlanner.cpp;C:\Users\Dastagir\DeepSeaNavigator\build\test_gridmap.dir\Debug\AStarPlanner.obj
+C:\Users\Dastagir\voxnav\tests\test_gridmap.cpp;C:\Users\Dastagir\voxnav\build\test_gridmap.dir\Debug\test_gridmap.obj
+C:\Users\Dastagir\voxnav\src\GridMap.cpp;C:\Users\Dastagir\voxnav\build\test_gridmap.dir\Debug\GridMap.obj
+C:\Users\Dastagir\voxnav\src\AStarPlanner.cpp;C:\Users\Dastagir\voxnav\build\test_gridmap.dir\Debug\AStarPlanner.obj

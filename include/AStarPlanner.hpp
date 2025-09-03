@@ -36,3 +36,6 @@ private:
     std::string key(const Coord &c) const;
     Coord parseKey(const std::string &k) const;
 };
+
+
+
