@@ -83,7 +83,7 @@ def main():
 
     args = parser.parse_args()
 
-    # read CSV files with simple helper (returns numpy arrays)
+    # Read CSV files with simple helper (returns numpy arrays)
     path_pts = read_csv_coords(args.path)
     occ_pts  = read_csv_coords(args.occ)
 
