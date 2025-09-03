@@ -114,17 +114,21 @@ After running the planner, call the Python plotting script to visualise the path
 
 ## Example images
 
+**With diagonal moves enabled**
 
-* **With diagonal moves enabled** —  filename: `plot_with_diag.png`  Caption: *Path from `(sx,sy,sz)` to `(gx,gy,gz)` with `--diag` enabled.*
+![Path with diag](docs/images/plot_with_diag.png)  
+*Path from `(sx,sy,sz)` to `(gx,gy,gz)` with `--diag` enabled.*
 
-* **Without diagonal moves** —  filename: `plot_without_diag.png`  Caption: *Path from `(sx,sy,sz)` to `(gx,gy,gz)` without `--diag`.*
+**Without diagonal moves**
 
-
-
+![Path without diag](docs/images/plot_without_diag.png)  
+*Path from `(sx,sy,sz)` to `(gx,gy,gz)` without `--diag`.*
 
 ---
 
 ## Contact
+
 Email : dastgir7999@gmail.com
+
 ---
 
